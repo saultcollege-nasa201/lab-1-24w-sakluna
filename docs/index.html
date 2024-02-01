@@ -3,20 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NASA 201 Sadat Karim Luna</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Lab NASA 201</title>
 </head>
+
+<!-- 
+    section: Agrupa contenido que esta relacionado. se usa cuando creamos bloques cuyo contenido es parte de un bloque total.
+
+    article: es un contenedor que representa contenido independiente, osea que tendria sentido por si mismo.  Es un componente de la pagina de contenido independiente porque podriamos leer uno sin haber leido el resto, y seguiria teniendo sentido.  esto implica que esta etiqueta puede tener un heater y un footer propios.
+
+    aside: se utiliza para representar contenido relaciopnado pero que no forma parte del contenido principal.
+
+    tambien existe el caso en el que un article contenga varias sections.
+
+    este ejemplo es un section que contiene varios articles
+-->
 <body>
-    <head>
-        <h1>This is my First Web page</h1>
-    </head>
+    <header>
+        <!-- Soy un elemento de bloquer -->
+        <h1>My First WEB Page</h1>
+        
+    </header>
+    <img src="images/oip.jpeg" alt="logo"> <br><br>
+    <p>
+        There are daily tasks in our homes that cannot wait and that we must attend to as soon as possible but we do not have time or we do not have those skills.
+        Don't worry about those things anymore, we can do it for you!
+    </p>
+     <!-- Soy un elemento de linea -->
+        <span>Plumbing</span> <br>
+        <span>Roofs</span> <br>
+        <span>Finishes</span> <br>
+        <span>Paint</span> <br>
+        <span>Carpentry</span> <br>
+        <span>locksmith</span> <br>
+        <span>welding</span> <br><br>
+
+        <a href="https://www.equiposdigitaleshc.com/">Our Parner</a><br><br>
+        <a href="about_us.html">About Us</a><br><br>
+        <a href="contact.html">Contact Us</a>
+
+
     <main>
-        <h2>Lab #1 NASA 201</h2>
-        <P>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa similique maiores quas minus ea tempora cum sint perspiciatis hic perferendis tenetur aliquam rem porro, at pariatur. Blanditiis dignissimos adipisci alias!</P>
-        <img src="images/tiger.jpg" alt="save this animals"> <br><br>
-        <a href="https://www.equiposdigitaleshc.com/">Visit My Page!</a>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam reprehenderit debitis vel quos alias eveniet commodi esse, si</p>
+       <article>
+        <!-- Soy otro elemento de bloquer -->
+            <h2>Navegadores mas utilizados en 2020</h2>
+            <section>
+                <header>
+                    <h3>Chrome</h3>
+                </header>
+                <!-- Soy otro elemento de bloquer -->
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat amet est itaque provident. Error odit similique doloremque, aliquid omnis reprehenderit atque id quaerat natus adipisci expedita harum dolor excepturi eaque!</p>
+                <footer>Creado por Google</footer>
+            </section>
+            <section>
+                <header>
+                    <h3>Firefox</h3>
+                </header>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe quod pariatur in dolorum harum animi voluptas labore quo, aspernatur excepturi aliquam hic quas obcaecati, laborum aliquid beatae qui eligendi ipsa?</p>
+                <footer>Creado por Firefox</footer>
+            </section>
+       </article> 
     </main>
+    <footer>4-11-2020</footer>
+<!-- Soy un elemento de linea -->
 
 </body>
-</html>
