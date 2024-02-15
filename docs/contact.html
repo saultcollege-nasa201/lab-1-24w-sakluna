@@ -4,19 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <script src="intro_to_js/script.js"></script>
     <title>Contact Us</title>
 </head>
 <body>
     <div class="container">
-        <form>
+        <form id="Myform">
             <h1>Contact Us</h1>
-            <input type="text" value="Name:" placeholder="Name">
-            <input type="text" value="Email:" placeholder="Email">
-            <textarea name="Message:" id="" cols="30" rows="10"></textarea>
-            <button>Send Message</button>
+            <input type="text" placeholder="Name" id="name">
+            <span id = nameError></span>
+            <input type="text" placeholder="Email" id="email">
+            <span id = emailError></span>
+            <input type ="submit" value="Send Message">
+            
+            <a href="index.html">Home</a>
+            
         </form>
-
+        <div id="errorMessage" class="error"></div>
     </div>
+    <script src="intro_to_js/script.js"></script>
+
 </body>
 </html>
